@@ -59,8 +59,8 @@ public class StripeControlador extends HttpServlet {
             // 🔹 Crear sesión de checkout con el TOTAL REAL
             SessionCreateParams params = SessionCreateParams.builder()
                     .setMode(SessionCreateParams.Mode.PAYMENT)
-                    .setSuccessUrl("http://pablodominio.sbs/vistaPastrendleria/carrito?accion=exito")
-                    .setCancelUrl("http://pablodominio.sbs/vistaPastrendleria/carrito?accion=cancelado")
+                    .setSuccessUrl("http://pablorosadev.com/vistaPastrendleria/carrito?accion=exito")
+                    .setCancelUrl("http://pablorosadev.com/vistaPastrendleria/carrito?accion=cancelado")
                     .addLineItem(
                             SessionCreateParams.LineItem.builder()
                                     .setQuantity(1L)

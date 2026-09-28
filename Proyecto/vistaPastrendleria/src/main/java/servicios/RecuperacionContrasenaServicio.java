@@ -36,7 +36,7 @@ public class RecuperacionContrasenaServicio {
     public boolean enviarEnlaceRecuperacion(String email, String token) {
         try {
             EmailUtilidad emailUtil = new EmailUtilidad();
-            String enlace = "http://pablodominio.sbs/vistaPastrendleria/restablecerContrasena.jsp?token=" + token;
+            String enlace = "http://pablorosadev.com/vistaPastrendleria/restablecerContrasena.jsp?token=" + token;
             String asunto = "Restablecimiento de contraseña – El Diario Fuun";
             String cuerpo = "Haz clic en el siguiente enlace para restablecer tu contraseña:\n\n" +
                     enlace + "\n\nSi no solicitaste esta acción, ignora este correo.";
