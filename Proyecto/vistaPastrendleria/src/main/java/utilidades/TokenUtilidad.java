@@ -57,7 +57,7 @@ public class TokenUtilidad {
      * @return una URL de verificación.
      */
     public static String generarEnlaceVerificacion(String token) {
-        return "http://pablodominio.sbs/vistaPastrendleria/verificarCuenta?token=" + token;
+        return "http://www.pablorosadev.com/vistaPastrendleria/verificarCuenta?token=" + token;
     }
 
     /**
@@ -130,6 +130,6 @@ public class TokenUtilidad {
      * @return una URL de recuperación.
      */
     public static String generarEnlaceRecuperacion(String token) {
-        return "http://pablodominio.sbs/vistaPastrendleria/restablecerContrasena.jsp?token=" + token;
+        return "http://www.pablorosadev.com/vistaPastrendleria/restablecerContrasena.jsp?token=" + token;
     }
 }
